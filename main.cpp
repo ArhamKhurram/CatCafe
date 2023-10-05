@@ -1,21 +1,30 @@
 #include <SFML/Graphics.hpp>
+#include <iostream>
+#include <string>
 
-int main()
-{
-    auto window = sf::RenderWindow{ { 1280u, 720u }, "Cat Cafe" };
-    window.setFramerateLimit(144);
 
-    while (window.isOpen())
-    {
-        for (auto event = sf::Event{}; window.pollEvent(event);)
-        {
-            if (event.type == sf::Event::Closed)
-            {
-                window.close();
-            }
-        }
+class Cat {
+public:
+    bool ishappy;
+    int health = 100;
+    int level = 0;
 
-        window.clear();
-        window.display();
+    void meow() {
+        std::cout << "meow!" << std::endl;
     }
+
+    void purr() {
+        std::cout << "purrrrr" << std::endl;
+    }
+};
+
+
+
+int main() {
+
+    Cat orange;
+    orange.purr();
+    std::cout << "Orange has health: " << orange.health << std::endl;
+
+    return 0;
 }

@@ -807,4 +807,6 @@ CMakeFiles/CatCafe.dir/main.cpp.o: \
   /opt/homebrew/include/SFML/Graphics/Glsl.inl \
   /opt/homebrew/include/SFML/Graphics/Sprite.hpp \
   /opt/homebrew/include/SFML/Graphics/Text.hpp \
-  /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp
+  /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/istream
