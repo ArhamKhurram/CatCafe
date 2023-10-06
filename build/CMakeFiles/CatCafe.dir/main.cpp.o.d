@@ -1,6 +1,5 @@
 CMakeFiles/CatCafe.dir/main.cpp.o: \
   /Users/arhamkhurram/Projects/Game\ Dev/CatCafe/main.cpp \
-  /opt/homebrew/include/SFML/Graphics.hpp \
   /opt/homebrew/include/SFML/Window.hpp \
   /opt/homebrew/include/SFML/System.hpp \
   /opt/homebrew/include/SFML/Config.hpp \
@@ -775,38 +774,4 @@ CMakeFiles/CatCafe.dir/main.cpp.o: \
   /opt/homebrew/include/SFML/Window/WindowBase.hpp \
   /opt/homebrew/include/SFML/Window/Vulkan.hpp \
   /opt/homebrew/include/SFML/Window/WindowHandle.hpp \
-  /opt/homebrew/include/SFML/Window/WindowStyle.hpp \
-  /opt/homebrew/include/SFML/Graphics/BlendMode.hpp \
-  /opt/homebrew/include/SFML/Graphics/Export.hpp \
-  /opt/homebrew/include/SFML/Graphics/CircleShape.hpp \
-  /opt/homebrew/include/SFML/Graphics/Shape.hpp \
-  /opt/homebrew/include/SFML/Graphics/Drawable.hpp \
-  /opt/homebrew/include/SFML/Graphics/RenderStates.hpp \
-  /opt/homebrew/include/SFML/Graphics/Transform.hpp \
-  /opt/homebrew/include/SFML/Graphics/Rect.hpp \
-  /opt/homebrew/include/SFML/Graphics/Rect.inl \
-  /opt/homebrew/include/SFML/Graphics/Transformable.hpp \
-  /opt/homebrew/include/SFML/Graphics/VertexArray.hpp \
-  /opt/homebrew/include/SFML/Graphics/Vertex.hpp \
-  /opt/homebrew/include/SFML/Graphics/Color.hpp \
-  /opt/homebrew/include/SFML/Graphics/PrimitiveType.hpp \
-  /opt/homebrew/include/SFML/Graphics/ConvexShape.hpp \
-  /opt/homebrew/include/SFML/Graphics/Font.hpp \
-  /opt/homebrew/include/SFML/Graphics/Glyph.hpp \
-  /opt/homebrew/include/SFML/Graphics/Texture.hpp \
-  /opt/homebrew/include/SFML/Graphics/Image.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \
-  /opt/homebrew/include/SFML/Graphics/RectangleShape.hpp \
-  /opt/homebrew/include/SFML/Graphics/RenderTarget.hpp \
-  /opt/homebrew/include/SFML/Graphics/View.hpp \
-  /opt/homebrew/include/SFML/Graphics/RenderTexture.hpp \
-  /opt/homebrew/include/SFML/Graphics/RenderWindow.hpp \
-  /opt/homebrew/include/SFML/Graphics/Shader.hpp \
-  /opt/homebrew/include/SFML/Graphics/Glsl.hpp \
-  /opt/homebrew/include/SFML/Graphics/Glsl.inl \
-  /opt/homebrew/include/SFML/Graphics/Sprite.hpp \
-  /opt/homebrew/include/SFML/Graphics/Text.hpp \
-  /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/istream
+  /opt/homebrew/include/SFML/Window/WindowStyle.hpp

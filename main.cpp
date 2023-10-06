@@ -1,30 +1,19 @@
-#include <SFML/Graphics.hpp>
-#include <iostream>
-#include <string>
+#include <SFML/Window.hpp>
 
+int main()
+{
+    sf::Window window(sf::VideoMode(800, 600), "CatCafe");
 
-class Cat {
-public:
-    bool ishappy;
-    int health = 100;
-    int level = 0;
-
-    void meow() {
-        std::cout << "meow!" << std::endl;
+    while (window.isOpen())
+    {
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
     }
-
-    void purr() {
-        std::cout << "purrrrr" << std::endl;
-    }
-};
-
-
-
-int main() {
-
-    Cat orange;
-    orange.purr();
-    std::cout << "Orange has health: " << orange.health << std::endl;
 
     return 0;
 }
+
